@@ -1,0 +1,5 @@
+,Conformity Interpersonal,Conformity Rules,Benevolence Care,Benevolence Dependability,Universalism Concern,Security Personal,Power Resources,Achievement,Stimulation,Hedonism,Universalism Nature,Security Societal,Self-direction Action,Face,Self-direction Thought,Tradition,Universalism Tolerance,Power Dominance,Humility
+Decision_Tree,0.0328,0.1383,0.1825,0.0282,0.1656,0,0.1342,0.2,0.1678,0.2,0.1427,0,0,0.0503,0.4,0.4,0.5346,0.0658,0.6487
+Random_Forest,0.0007,0.0423,0.0736,0.1851,0.1369,0.2254,0.0626,0.2681,0.0152,0.1511,0.2481,0.3177,0.1851,0.3931,0.2089,0.2389,0.0858,0.2771,0.3393
+Gradient_Boosted_Trees,0,0.1632,0,0.0197,0.215,0.1395,0.2603,0.2463,0.0806,0.2634,0.1976,0.2134,0.3411,0.1806,0.1668,0.1078,0.2576,0.1869,0.1047
+Support_Vector_Machine,0,0.1496,0.0396,0.0189,0.1398,0,0.0439,0.2286,0.2558,0.2785,0.301,0.2002,0.0897,0.224,0.0935,0.2529,0.1694,0.5738,0.0752

@@ -1,0 +1,5 @@
+,Explorer Rank,Builder Rank,Director Rank,Negotiator Rank,Secure attachment,Anxious attachment,Fearful-avoidant attachment,Dismissive-avoidant attachment,Agreebleness,Concientiousness,Extraversion,Neurotism,Openess
+Decision_Tree,0.3149,0.0722,0.2271,0.3253,0.0811,0.1307,0,0,0.1204,0.0477,0,0.1747,0.0224
+Random_Forest,0.1046,0.0375,0.0887,0.264,0.2004,0.1436,0.1743,0.1256,0.078,0.2234,0,0.3142,0.2143
+Gradient_Boosted_Trees,0.3377,0.2055,0.0857,0.1629,0.2826,0.4052,0.4528,0.1993,0.1461,0.2095,0,0.436,0
+Support_Vector_Machine,0,0.0092,0.04,0,0.4054,0.3378,0.2977,0.2351,0.153,0.0619,0.0459,0.1352,0.0655

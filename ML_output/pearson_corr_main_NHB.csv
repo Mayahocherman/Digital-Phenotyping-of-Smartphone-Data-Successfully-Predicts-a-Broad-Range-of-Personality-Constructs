@@ -1,0 +1,5 @@
+,FTI - Cautious/Social Norm Compliant,FTI - Analytical/Tough-minded,FTI - Prosocial/Empathetic,FTI - Curious/Energetic,AAT - Dismissive-avoidant ,AAT - Secure ,AAT - Anxious ,AAT - Fearful-avoidant ,FFM - Agreebleness,FFM - Extraversion,FFM - Openness,FFM - Concientiousness,FFM - Neuroticism
+Decision_Tree,0.0722,0.2271,0.3253,0.3149,0,0.0811,0.1307,0,0.1204,0,0.0224,0.0477,0.1747
+Random_Forest,0.0375,0.0887,0.264,0.1046,0.1256,0.2004,0.1436,0.1743,0.078,0,0.2143,0.2234,0.3142
+Gradient_Boosted_Trees,0.2055,0.0857,0.1629,0.3377,0.1993,0.2826,0.4052,0.4528,0.1461,0,0,0.2095,0.436
+Support_Vector_Machine,0.0092,0.04,0,0,0.2351,0.4054,0.3378,0.2977,0.153,0.0459,0.0655,0.0619,0.1352
