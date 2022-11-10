@@ -1,0 +1,44 @@
+
+File Name: Download_SQL_from_server
+Output: MySQL_output folder
+Extract row data from MySQL to Excel (using Python package mysql.connector)
+The extracted tables from the SQL DB are:
+    Aware Device (table name: aware_device)
+    Questionnaire answers (table name: Personality_Q_Alteryx)
+    Bluetooth (table name: bluetooth)
+    Battery  (table name: battery_charges)
+    Calls (table name: calls)
+    Messages (table name: messages)
+    Screen (table name: screen)
+    Wi-Fi (table name: wifi)
+
+File name: Data_Processing
+Output: Data_processing_output folder
+1. Data cleaning
+Actions for label (questionnaire response):
+    - Drop irrelevant columns from the row table of the questionnaire (E.g. Attachments % calculation, timestemp, empty columns)
+    - Drop rows (participants) with missing data
+    - Zscore Scaling for traits responses
+Actions for features (smartphone data):
+    - Retrieve Excel row data
+    - Drop rows of users (participants) with missing data (E.g. not collected 7 days, missing logs, etc.)
+2. Feature generation
+We created the feature based on 2 aggregation level, week and day (24h)
+Nulls handling: we replaced nulls values with feature median, for some features we replaced nulls values with feature mean (E.g. Screen_avg_time_24, calls_duration_mean_week, calls_duration_mean_24h)
+Outliers’ detection & removal: we used IQR approach to detect outliers, and we replaced outliers with feature median.
+Data scaling: we scaled all features using Z-score method.
+
+File name: Corr_Analisys, Statistical_Analysis
+Output: Correlation folder
+Create Pearson Correlation metrix
+
+File name: RapidMiner_create_input_files
+Output: RapidMiner_input_{trait} files (Data_processing_output folder)
+This file creates Excel inputs for Rapid Miner Auto Model (concat between smartphone-features and one trait for each file)
+
+
+File name: Visualization
+Output: Models performance comparing charts, Feature importance pie-charts
+
+File name: Visualization_predicted_personality
+Output: Bar chart and Excel files to present the personality predictions
